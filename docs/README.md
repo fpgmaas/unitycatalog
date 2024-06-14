@@ -1,4 +1,4 @@
-![image info](./docs/static/uc-logo-horiz.png)
+![image info](./static/uc-logo-horiz.png)
 
 # Unity Catalog: Open, Multi-modal Catalog for Data & AI
 Unity Catalog is the most open and interoperable catalog for data and AI
