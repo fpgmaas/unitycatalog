@@ -1,3 +1,5 @@
 etc/db/h2db.mv.db
 target/
 .idea/
+
+venv

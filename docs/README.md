@@ -1,4 +1,4 @@
-![image info](./../uc-logo-horiz.png)
+![image info](./docs/static/uc-logo-horiz.png)
 
 # Unity Catalog: Open, Multi-modal Catalog for Data & AI
 Unity Catalog is the most open and interoperable catalog for data and AI
@@ -12,7 +12,7 @@ Unity Catalog is the most open and interoperable catalog for data and AI
 - **Unified governance** for data and AI - Asset-level access control is enforced through
   temporary credential vending via REST APIs
 
-![image info](./../uc.png)
+![image info](./static/uc.png)
 
 This documentation contains the following
 - [Tutorial for Tables, Volumes, Functions, etc.](./tutorial.md)

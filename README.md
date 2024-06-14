@@ -1,4 +1,4 @@
-![image info](./uc-logo-horiz.png)
+![image info](./docs/static/uc-logo-horiz.png)
 
 # Unity Catalog: Open, Multi-modal Catalog for Data & AI
 Unity Catalog is the most open and interoperable catalog for data and AI 
@@ -12,7 +12,7 @@ Unity Catalog is the most open and interoperable catalog for data and AI
 - **Unified governance** for data and AI - Asset-level access control is enforced through 
     temporary credential vending via REST APIs
 
-![image info](./uc.png)
+![image info](./docs/static/uc.png)
 
 ## Quickstart - Hello UC!
 Let's take Unity Catalog for spin. In this guide, we are going to do the following:
@@ -127,3 +127,24 @@ See the full [tutorial](docs/tutorial.md) for more details.
 
 The build script [checks for a lower bound on the JDK](./build.sbt#L14) but the [current SBT version](./project/build.properties)
 imposes an upper bound. Please check the [JDK compatibility](https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html) documentation for more information
+
+### Serving the documentation with mkdocs
+
+Create a virtual environment:
+
+```sh
+python -m venv venv
+. ./venv/bin/activate 
+``` 
+
+Install the required dependencies:
+
+```sh
+pip install -r requirements-docs.txt
+```
+
+Then serve the docs with
+
+```sh
+mkdocs serve
+```
