@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-![image info](./static/uc-logo-horiz.png)
-=======
 <img src="./assets/images/uc-logo.png" width="600px" />
->>>>>>> 71c5e6e (Update README with new value pillars, supporting orgs, and updated images (#63))
 
 # Unity Catalog: Open, Multimodal Catalog for Data & AI
 Unity Catalog is the industry’s only universal catalog for data and AI.
 
-<<<<<<< HEAD
-![image info](./static/uc.png)
-=======
 - **Multimodal interface supports any format, engine, and asset**
   - Multi-format support: It is extensible and supports Delta Lake, Apache Iceberg and Apache Hudi via UniForm, Apache Parquet, JSON, CSV, and many others.
   - Multi-engine support: With its open APIs, data cataloged in Unity can be read by many leading compute engines.
@@ -26,7 +19,6 @@ Unity Catalog is proud to be hosted by the LF AI & Data Foundation.
 <a href="https://lfaidata.foundation/projects">
   <img src="./assets/images/lfaidata-project-badge-sandbox-color.png" width="200px" />
 </a>
->>>>>>> 71c5e6e (Update README with new value pillars, supporting orgs, and updated images (#63))
 
 This documentation contains the following
 - [Tutorial for Tables, Volumes, Functions, etc.](./tutorial.md)
